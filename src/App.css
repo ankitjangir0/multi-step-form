@@ -1,38 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+}
+
 .App {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pi h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .pi label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.pi input {
+  border: 0px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+
+.pi button {
+  border: 0px;
+  display: inline-block;
+  background-color:transparent;
+  border-bottom: 2px solid black;
+  color:gray;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.pi button:hover {
+  border: 0px;
+  background-color: green;
+color: white;
+border-bottom: 2px solid black;}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pi p{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.pi input.error {
+  border-color: red;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+    margin: 20px auto;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  button {
+    width: 100%;
+    margin: 5px 0;
   }
 }

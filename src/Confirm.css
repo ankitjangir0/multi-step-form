@@ -1,0 +1,36 @@
+.ci p{
+    font-style: italic;
+}
+
+.ci h2{
+   font-variant: small-caps;
+}
+
+
+
+.ci button{
+    border: 0px;
+    background-color: transparent; 
+    color: black;
+    border-bottom: 2px solid gray;
+    padding: 10px 15px;
+    margin: 5px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+  }
+  
+
+ #ciback:hover{
+ 
+    background-color: red;
+    border-bottom: 2px solid  green; 
+  }
+  
+
+  #cisub:hover{
+    border: 0px;
+    background-color: green;
+    border-bottom: 2px solid red;
+  } 

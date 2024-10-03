@@ -1,0 +1,76 @@
+
+
+  
+ 
+ .ai h2 {
+    font-variant: small-caps;
+    color: #222;
+    text-align: center;
+  }
+  
+  .ai label{
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+.ai input {
+    border: 0px;
+    width: 95%; 
+    padding: 10px; 
+    margin: 8px 0; 
+    border-bottom: 1px solid #555;
+    border-radius: 4px; 
+   
+    /* color: #fff;  */
+    font-size: 16px;
+  }
+  
+  
+ .ai button{
+    border: 0px;
+    background-color: transparent; 
+    color: black;
+    border-bottom: 2px solid gray;
+    padding: 10px 15px;
+    margin: 5px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+  }
+  
+
+ #aiback:hover{
+ 
+    background-color: red;
+    border-bottom: 2px solid  green; 
+  }
+  
+
+  #ainext:hover{
+    border: 0px;
+    background-color: green;
+    border-bottom: 2px solid red;
+  } 
+
+ .ai p {
+    color: red; 
+    font-size: 0.8em; 
+    margin-top: 4px; 
+  }
+  
+  .fade-enter {
+    opacity: 0;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+  }
+  
